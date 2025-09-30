@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use App\Hola;
+use App\hola;
 
 class HolaTest extends TestCase {
     public function testDecirHolaMundo() {
@@ -9,3 +9,4 @@ class HolaTest extends TestCase {
         $this->assertEquals("Hola Mundo", $hola->decir());
     }
 }
+
